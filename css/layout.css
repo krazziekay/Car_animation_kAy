@@ -1,0 +1,74 @@
+body {
+	width: 100%;
+}
+
+#main {
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	/*background-color: #FFFFFF;*/
+	overflow: hidden;
+}
+
+.top {
+	height: 60px;
+	background-color: #777777;
+	width: 100%;
+	color: #FFFFFF;
+	z-index: 2;
+	position: absolute;
+	padding: 10px;	
+}
+
+#main-wrapper {
+	width: 800px;
+	height: 600px;
+	/*position: relative;*/
+	background-image: url('../images/track.jpg') ;
+	background-size: 800px 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.obstacles {
+	background-image: url('../images/obstacle.png');
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 1;
+}
+#over {
+	position: absolute;
+	top: 50%;
+	left: 43%;
+	z-index: 3;
+}
+
+.button {
+	float: right;
+	width: 10%;
+	color: #FFFFFF;
+	background-color: #673AB7;
+	border: none;
+	padding: 7px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.button:hover {
+	cursor: pointer;
+	border: 1px solid #FFFFFF;
+}
+
+#car {
+	background-image: url('../images/own-car.png');
+	width: 50px;
+	height: 50px;
+	bottom:15px;	
+	left: 50%;
+	position:absolute;
+}
+.showscore {
+	width: 70%;
+	float: left;
+}
