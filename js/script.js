@@ -137,7 +137,7 @@ function restart() {
 
 //Key events
 function moveSelection(evt) {
-	e.preventDefault();
+	evt.preventDefault();
 	switch (evt.keyCode) {
 		case 37: {
 			if(!checkOutOfBounds(parseInt(document.getElementById('car').offsetLeft) - movementCriteria + "px")){
